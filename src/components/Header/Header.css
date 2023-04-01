@@ -1,19 +1,17 @@
-.header {
-    width: 1286;
-    height: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+header {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #dddd;
+  z-index: 999999;
+  padding: 0 10px;
 }
-nav.header a{
-    text-decoration: none;
-    color: black;
-    margin-left: 30px;
-}
-nav.header a:hover{
-    color: blue;
+
+.nav-main {
+  background-color: white;
+  border-bottom: 1px solid #dddd;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

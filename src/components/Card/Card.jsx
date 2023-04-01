@@ -37,7 +37,8 @@ const Card = () => {
     if (previousBookMark) {
       const isAdded = previousBookMark.find((bkId) => bkId.id == id);
       if (isAdded) {
-        console.log("id matched");
+        // here the alert
+
         return;
       } else {
         bookmarkArray.push(...previousBookMark, bookmarkObj);

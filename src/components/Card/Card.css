@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
+
 }
 .card-container {
   display: grid;
