@@ -1,0 +1,42 @@
+[
+  {
+    "id": "64245c401a82123893daa027",
+    "img": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1680201542~exp=1680202142~hmac=8f675873d368b78f84288cc1b0031d52c34323c9f96e35b884622be571936764",
+    "userImg": "https://images.unsplash.com/photo-1543132220-3ec99c6094dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    "author": "Mr. Raju",
+    "time": "6 min read",
+    "date": "Mar 14 (4 Days ago)",
+    "title": "How to get first programming job without experience?",
+    "read": 6
+  },
+  {
+    "id": "64245c402521c870469a7d11",
+    "img": "https://img.freepik.com/premium-photo/abstract-modern-tech-programming-code-screen-developer-c-programming-language-computer-script-technology-background-software_505353-472.jpg?w=1480",
+    "userImg": "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?w=1380&t=st=1680216786~exp=1680217386~hmac=782af40f14fbbd52a8591cedc08c76adb04c92546c8c3c120676f9d56d73c6f4",
+    "author": "Mrs. Setara",
+    "time": "11 min read",
+    "date": "Mar 14 (4 Days ago)",
+    "title": "How do I get my first job as a programmer?",
+    "read": 11
+  },
+  {
+    "id": "64245c402f67b2bbfb75c102",
+    "img": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1380&t=st=1680201843~exp=1680202443~hmac=df2c49ada7569d51c8038dbccf227d3b47c0e68e78cd175028eb7d3c3d2d7897",
+    "userImg": "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=826&t=st=1680216861~exp=1680217461~hmac=e125b67dba1715a1df0abe35e631232e3f4f1370741d115a01ef807eea245eba",
+    "author": "Mina Mostofa",
+    "time": "09 min read",
+    "date": "Mar 14 (4 Days ago)",
+    "title": "Can a self-taught programmer be successful?",
+    "read": 9
+  },
+  {
+    "id": "64245c402f67b2bbfb75c071",
+    "img": "https://img.freepik.com/premium-vector/software-program-development-laptop-pcr_73903-133.jpg?w=1380",
+    "userImg": "https://img.freepik.com/free-photo/dark-blonde-bearded-man-crosses-his-hands-chest-posing-black-shirt_8353-1116.jpg?w=740&t=st=1680216930~exp=1680217530~hmac=8e985ce1185483b017fe6d1c8e07d5d83d0ee2f1c7ab79dd021270b775b4883a",
+    "author": "Arif Mahmud",
+    "time": "07 min read",
+    "date": "Mar 14 (4 Days ago)",
+    "title": "Is it too late to start a career in programming?",
+    "read": 7
+  }
+]
