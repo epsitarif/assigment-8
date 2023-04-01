@@ -28,6 +28,7 @@ const Card = () => {
   };
 
   // bookmark
+  const [showBookmark, setShowBookmark] = useState([]);
   const handleBookmark = (id, title) => {
     const previousBookMark = JSON.parse(localStorage.getItem("bookmarks"));
     const bookmarkArray = [];
@@ -41,10 +42,12 @@ const Card = () => {
       } else {
         bookmarkArray.push(...previousBookMark, bookmarkObj);
         localStorage.setItem("bookmarks", JSON.stringify(bookmarkArray));
+        setShowBookmark(bookmarkArray);
       }
     } else {
       bookmarkArray.push(bookmarkObj);
       localStorage.setItem("bookmarks", JSON.stringify(bookmarkArray));
+      setShowBookmark(bookmarkArray);
     }
   };
 
@@ -60,7 +63,7 @@ const Card = () => {
         ))}
       </div>
       <div className="bookmark-container">
-        <BookMark timeWatch={timeWatch}></BookMark>
+        <BookMark timeWatch={timeWatch} showBookmark={showBookmark}></BookMark>
       </div>
     </div>
   );

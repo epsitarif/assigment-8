@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Time from "../Time/Time";
-import "./BookMark.css"
+import "./BookMark.css";
 
-const BookMark = ({timeWatch}) => {
+const BookMark = ({ timeWatch, showBookmark }) => {
+  const [bookmarkTitle, setBookmarkTitle] = useState(showBookmark);
+  // console.log("bookmarkTitle", bookmarkTitle);
+  useEffect(() => {
+    const previousBookMark = JSON.parse(localStorage.getItem("bookmarks"));
+    setBookmarkTitle(previousBookMark);
+  }, [showBookmark]);
   return (
     <div>
       <Time timeWatch={timeWatch}></Time>
       <div className="bookmark-title">
-
+        {bookmarkTitle?.map((bk) => (
+          <h3 className="title">{bk?.title}</h3>
+        ))}
       </div>
     </div>
   );

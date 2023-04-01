@@ -3,3 +3,10 @@
   background-color: #ddd;
   height: 100%;
 }
+.bookmark-title > .title {
+  padding: 10px;
+  background-color: #bdbaba;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddeedd;
+}
