@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import BookMark from "../BookMark/BookMark";
 import SingleCard from "../SingleCard/SingleCard";
 import "./Card.css";
-import Time from "../Time/Time";
-import { ListGroup } from "react-bootstrap";
 
 const Card = () => {
   const [blogs, setCards] = useState([]);
